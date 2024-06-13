@@ -13,11 +13,10 @@ export interface Episode {
 
 export async function getAllEpisodes() {
   const cdn = 'https://ik.imagekit.io/2gweb/noneninenane/'
-
   return [
     {
       id: 5,
-      title: '5: Canzone del maggio',
+      title: '5: Un cane bianco della Lucania',
       slug: 'canzone-del-maggio',
       published: '2022-02-24T00:00:00.000Z',
       description:
@@ -43,14 +42,14 @@ export async function getAllEpisodes() {
         '<li>“What’s happening?”, Bill’s new book on effective management <a href="#">on Amazon</a></li>\n' +
         '</ul>\n',
       audio: {
-        src: cdn + 'audio/test.mp3',
+        src: cdn + 'audio/5-%20Un%20cane%20bianco%20della%20Lucania.m4a',
         type: 'audio/mpeg',
       },
     },
     {
       id: 4,
-      title: '4: Filastrocca impertinente',
-      slug: 'filastrocca-impertinente',
+      title: '4: Canzone del Maggio (di Accettura)',
+      slug: 'canzone-del-maggio',
       published: '2022-02-17T00:00:00.000Z',
       description:
         'When golf-obsessed terrorists kidnapped his family and held them hostage in exchange for a Golden Jacket, Shooter had no choice but to win the tour at any cost.',
@@ -78,14 +77,14 @@ export async function getAllEpisodes() {
         '<li>Laborum laudantium sunt <a href="#">mollitia aliquam</a> corporis</li>\n' +
         '</ul>\n',
       audio: {
-        src: cdn + 'audio/test.mp3',
+        src: cdn + 'audio/4-%20Canzone%20del%20Maggio%20(di%20Accettura).m4a',
         type: 'audio/mpeg',
       },
     },
     {
       id: 3,
-      title: '3: Cane bianco',
-      slug: 'cane-bianco',
+      title: '3: Filastrocca impertinente',
+      slug: 'filastrocca-impertinente',
       published: '2022-02-10T00:00:00.000Z',
       description:
         'The Christmas of 1989 wasn’t the first time Harry and Marv crossed paths with the McCallisters. The real story starts in 1973, when Peter tripped Marv in the highschool locker room.',
@@ -113,13 +112,13 @@ export async function getAllEpisodes() {
         '<li>Laborum laudantium sunt <a href="#">mollitia aliquam</a> corporis</li>\n' +
         '</ul>\n',
       audio: {
-        src: cdn + 'audio/test.mp3',
+        src: cdn + 'audio/3-%20Filastrocca%20impertinente.m4a',
         type: 'audio/mpeg',
       },
     },
     {
       id: 2,
-      title: '2: Oh mio leandro',
+      title: '2: Oh (mio) Leandro',
       slug: 'oh-mio-leandro',
       published: '2022-02-03T00:00:00.000Z',
       description:
@@ -148,13 +147,13 @@ export async function getAllEpisodes() {
         '<li>Laborum laudantium sunt <a href="#">mollitia aliquam</a> corporis</li>\n' +
         '</ul>\n',
       audio: {
-        src: cdn + 'audio/test.mp3',
+        src: cdn + 'audio/2-%20Oh%20(mio)%20Leandro.m4a',
         type: 'audio/mpeg',
       },
     },
     {
       id: 1,
-      title: '1: Gastone',
+      title: '1: Gastone, leone mattacchione',
       slug: 'gastone',
       published: '2022-01-27T00:00:00.000Z',
       description:
@@ -183,7 +182,7 @@ export async function getAllEpisodes() {
         '<li>Laborum laudantium sunt <a href="#">mollitia aliquam</a> corporis</li>\n' +
         '</ul>\n',
       audio: {
-        src: cdn + 'audio/test.mp3',
+        src: cdn + 'audio/1-%20Gastone,%20leone%20mattacchione.m4a',
         type: 'audio/mpeg',
       },
     },
