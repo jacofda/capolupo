@@ -2,7 +2,7 @@ export interface Episode {
   id: number
   title: string
   slug: string
-  published: Date
+  published: Date | string
   description: string
   content: string
   audio: {
