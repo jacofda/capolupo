@@ -17,30 +17,64 @@ export async function getAllEpisodes() {
     {
       id: 5,
       title: '5: Un cane bianco della Lucania',
-      slug: 'canzone-del-maggio',
+      slug: 'un-cane-bianco-della-lucania',
       published: '2022-02-24T00:00:00.000Z',
       description:
         'He’s going to need you to go ahead and come in on Saturday, but there’s a lot more to the story than you think.',
       content:
-        '<h2 id="topics">Topics</h2>\n' +
-        '<ul>\n' +
-        '<li>What are TPS reports exactly, and what’s the motivation for adding the cover sheet?</li>\n' +
-        '<li>How Bill preserves such a cool and calm demeanor, despite the extreme consequences Initech faces for not finishing their Y2K upgrades on time, and why it’s important to protect the staff from that stress</li>\n' +
-        '<li>Why suspenders and belts aren’t enough on their own, and should be used together</li>\n' +
-        '<li>The backstory behind how Bill purchased his Porsche 911</li>\n' +
-        '<li>The real reason he needed the red stapler for himself</li>\n' +
-        '</ul>\n' +
-        '<h2 id="sponsors">Sponsors</h2>\n' +
-        '<ul>\n' +
-        '<li><a href="#">Initech</a> — Pioneers of the TPS report, Initech is actively looking for job-seekers with people skills who can work with customers to gather specifications and deliver them to the software people.</li>\n' +
-        '<li><a href="#">Globex Corporation</a> — Just a friendly and innocent high-tech company, with a casual work environment and an office without walls. Anything you’ve heard about a “doomsday device” is pure conjecture and not based in fact.</li>\n' +
-        '</ul>\n' +
-        '<h2 id="links">Links</h2>\n' +
-        '<ul>\n' +
-        '<li>Bill Lumbergh’s <a href="#">Twitter profile</a></li>\n' +
-        '<li>Bill Lumbergh’s <a href="#">personal website</a></li>\n' +
-        '<li>“What’s happening?”, Bill’s new book on effective management <a href="#">on Amazon</a></li>\n' +
-        '</ul>\n',
+        '<h2 id="topics">Testo</h2>\n' +
+        '<p>Ieri ho visto un cane bianco<br>\n' +
+        'camminare a muso alto<br>\n' +
+        'un cane bianco della Lucania<br>\n' +
+        'era sera e stavo ad Agna<br>\n' +
+        'cane bianco che mistero<br>\n' +
+        'il tuo sguardo brigantiero<br>\n' +
+        'il tuo sguardo così fiero<br>\n' +
+        'sembri Crocco da Rionero<br>\n' +
+        'come Crocco sulla montagna<br>\n' +
+        'non hai tempo per fare la nanna<br>\n' +
+        'come Crocco sulla montagna<br>\n' +
+        'il tuo letto sarà di paglia<br>\n' +
+        'come Crocco sulla montagna<br>\n' +
+        'quando dormi pensi alla mamma<br>\n' +
+        'come Crocco sulla montagna<br>\n' +
+        'la giustizia è la tua manna<br>\n' +
+        'la giustizia non fa la nanna<br>\n' +
+        '<h2 id="links" class="text-2xl">Accordi</h2>\n' +
+        '<p class="mb-0 w-40 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        'Ieri ho visto un cane bianco<br>\n' +
+        '<p class="my-0 w-40 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        'camminare a muso alto<br>\n' +
+        '<p class="my-0 w-40 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        'un cane bianco della Lucania<br>\n' +
+        '<p class="my-0 w-40 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        'era sera e stavo ad Agna<br>\n' +
+        '<p class="my-0 w-40 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        'cane bianco che mistero<br>\n' +
+        '<p class="my-0 w-40 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        'il tuo sguardo brigantiero<br>\n' +
+        '<p class="my-0 w-40 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        'il tuo sguardo così fiero<br>\n' +
+        '<p class="my-0 w-40 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        'sembri Crocco da Rionero<br>\n' +
+        '<p class="my-0 w-40 flex  justify-between text-gray-500"><span>fa</span><span>do</span></p>' +
+        'come Crocco sulla montagna<br>\n' +
+        '<p class="my-0 w-40 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        'non hai tempo per fare la nanna<br>\n' +
+        '<p class="my-0 w-40 flex  justify-between text-gray-500"><span>fa</span><span>do</span></p>' +
+        'come Crocco sulla montagna<br>\n' +
+        '<p class="my-0 w-40 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        'il tuo letto sarà di paglia<br>\n' +
+        '<p class="my-0 w-40 flex  justify-between text-gray-500"><span>fa</span><span>do</span></p>' +
+        'come Crocco sulla montagna<br>\n' +
+        '<p class="my-0 w-40 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        'se ti addormenti pensi alla mamma<br>\n' +
+        '<p class="my-0 w-40 flex  justify-between text-gray-500"><span>fa</span><span>do</span></p>' +
+        'come Crocco sulla montagna<br>\n' +
+        '<p class="my-0 w-40 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        'la giustizia è la tua manna<br>\n' +
+        '<p class="my-0 w-40 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        'la giustizia non fa la nanna<br>\n',
       audio: {
         src: cdn + 'audio/5-%20Un%20cane%20bianco%20della%20Lucania.m4a',
         type: 'audio/mpeg',
@@ -54,28 +88,44 @@ export async function getAllEpisodes() {
       description:
         'When golf-obsessed terrorists kidnapped his family and held them hostage in exchange for a Golden Jacket, Shooter had no choice but to win the tour at any cost.',
       content:
-        '<h2 id="topics">Topics</h2>\n' +
-        '<ul>\n' +
-        '<li>Quibusdam saepe veritatis unde ea omnis repudiandae neque unde sapiente</li>\n' +
-        '<li>Praesentium velit ratione</li>\n' +
-        '<li>Deserunt ullam sit perspiciatis</li>\n' +
-        '<li>Omnis occaecati tempore numquam delectus iste iste odio</li>\n' +
-        '<li>Est qui consequuntur quis quia quod ipsum consectetur ad aperiam</li>\n' +
-        '<li>Voluptate laborum cum dignissimos esse debitis incidunt tempore</li>\n' +
-        '</ul>\n' +
-        '<h2 id="sponsors">Sponsors</h2>\n' +
-        '<ul>\n' +
-        '<li><a href="#">Initech</a> — Pioneers of the TPS report, Initech is actively looking for job-seekers with people skills who can work with customers to gather specifications and deliver them to the software people.</li>\n' +
-        '<li><a href="#">Globex Corporation</a> — Just a friendly and innocent high-tech company, with a casual work environment and an office without walls. Anything you’ve heard about a “doomsday device” is pure conjecture and not based in fact.</li>\n' +
-        '</ul>\n' +
-        '<h2 id="links">Links</h2>\n' +
-        '<ul>\n' +
-        '<li><a href="#">Quis laboriosam</a> molestiae tempore necessitatibus</li>\n' +
-        '<li><a href="#">Sit autem</a> neque minima itaque sit commodi</li>\n' +
-        '<li>Eos ratione <a href="#">blanditiis</a></li>\n' +
-        '<li>Eius a <a href="#">qui quasi</a></li>\n' +
-        '<li>Laborum laudantium sunt <a href="#">mollitia aliquam</a> corporis</li>\n' +
-        '</ul>\n',
+        '<h2 id="topics">Testo</h2>\n' +
+        '<p class="my-0">Bisogna aver coraggio</p>' +
+        '<p class="my-0">gridare all’arrembaggio</p>' +
+        '<p class="my-0">tuffarsi in un miraggio</p>' +
+        '<p class="my-0">opporsi ad un oltraggio</p>' +
+        '<p class="my-0">bisogna aver coraggio</p>' +
+        '<p class="my-0">dormire fino a maggio</p>' +
+        '<p class="my-0">svegliarsi sotto a un faggio</p>' +
+        '<p class="my-0">partire per un viaggio</p>' +
+        '<p class="my-0">che voglia d’avventura</p>' +
+        '<p class="my-0">tra i boschi di Accettura</p>' +
+        '<p class="my-0">che bella è la natura</p>' +
+        '<p class="my-0">non devi aver paura</p>' +
+        '<h2 id="sponsors">Accordi</h2>\n' +
+        '<p class="mb-0 w-32 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">Bisogna aver coraggio</p>' +
+        '<p class="my-0 w-32 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">gridare all’arrembaggio</p>' +
+        '<p class="my-0 w-32 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">tuffarsi in un miraggio</p>' +
+        '<p class="my-0 w-32 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">opporsi ad un oltraggio</p>' +
+        '<p class="my-0 w-32 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">bisogna aver coraggio</p>' +
+        '<p class="my-0 w-32 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">dormire fino a maggio</p>' +
+        '<p class="my-0 w-32 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">svegliarsi sotto a un faggio</p>' +
+        '<p class="my-0 w-32 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">partire per un viaggio</p>' +
+        '<p class="my-0 w-32 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">che voglia d’avventura</p>' +
+        '<p class="my-0 w-32 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">tra i boschi di Accettura</p>' +
+        '<p class="my-0 w-32 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">che bella è la natura</p>' +
+        '<p class="my-0 w-32 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">non devi aver paura</p>',
       audio: {
         src: cdn + 'audio/4-%20Canzone%20del%20Maggio%20(di%20Accettura).m4a',
         type: 'audio/mpeg',
@@ -83,21 +133,27 @@ export async function getAllEpisodes() {
     },
     {
       id: 3,
-      title: '3: Filastrocca impertinente',
+      title: '3: C’era una nonna a Salvia di L',
       slug: 'filastrocca-impertinente',
       published: '2022-02-10T00:00:00.000Z',
       description:
-        'The Christmas of 1989 wasn’t the first time Harry and Marv crossed paths with the McCallisters. The real story starts in 1973, when Peter tripped Marv in the highschool locker room.',
+        'Passannante l’aveva detto - Senza un dente non sei perfetto -  Ma senza pane si fa la fame -  Girotondo casca il reame',
       content:
-        '<h2 id="topics">Topics</h2>\n' +
-        '<ul>\n' +
-        '<li>Quibusdam saepe veritatis unde ea omnis repudiandae neque unde sapiente</li>\n' +
-        '<li>Praesentium velit ratione</li>\n' +
-        '<li>Deserunt ullam sit perspiciatis</li>\n' +
-        '<li>Omnis occaecati tempore numquam delectus iste iste odio</li>\n' +
-        '<li>Est qui consequuntur quis quia quod ipsum consectetur ad aperiam</li>\n' +
-        '<li>Voluptate laborum cum dignissimos esse debitis incidunt tempore</li>\n' +
-        '</ul>\n' +
+        '<h2 id="topics">Testo</h2>\n' +
+        '<p class="my-0">Fila-filastrocca impertinente</p>' +
+        '<p class="my-0">la mia nonna ha perso un dente</p>' +
+        '<p class="my-0">ed ha chiesto al topolino</p>' +
+        '<p class="my-0">di portarle un bel soldino</p>' +
+        '<p class="my-0">ma il topino ’sto disgraziato</p>' +
+        '<p class="my-0">il soldino s’è intascato</p>' +
+        '<p class="my-0">e la nonna poverina</p>' +
+        '<p class="mt-0">è rimasta come prima</p>' +
+        '<p class="mb-0">senza un dente è la nonnina</p>' +
+        '<p class="my-0">poverina, poverina</p>' +
+        '<p class="my-0">filastrocca impertinente</p>' +
+        '<p class="my-0">c’è una nonna senza un dente</p>' +
+        '<p class="my-0">c’è un topino ch’è un gran fetente</p>' +
+        '<p class="my-0">ed a noi non frega niente</p>' +
         '<h2 id="sponsors">Sponsors</h2>\n' +
         '<ul>\n' +
         '<li><a href="#">Initech</a> — Pioneers of the TPS report, Initech is actively looking for job-seekers with people skills who can work with customers to gather specifications and deliver them to the software people.</li>\n' +
