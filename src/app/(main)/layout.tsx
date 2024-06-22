@@ -70,7 +70,7 @@ export default function MainLayout({
     <AudioProvider>
       <header className="bg-slate-50 lg:fixed lg:inset-y-0 lg:left-0 lg:flex lg:w-112 lg:items-start lg:overflow-y-auto xl:w-120">
         <div className="hidden lg:sticky lg:top-0 lg:flex lg:w-16 lg:flex-none lg:items-center lg:whitespace-nowrap lg:py-12 lg:text-sm lg:leading-7 lg:[writing-mode:vertical-rl]">
-          <span className="font-mono text-slate-500">Musica e testi scritta da</span>
+          <span className="font-mono text-slate-500">Musica e testi scritti da</span>
           <span className="mt-6 flex gap-6 font-bold text-slate-900">
             {hosts.map((host, hostIndex) => (
               <Fragment key={host}>
