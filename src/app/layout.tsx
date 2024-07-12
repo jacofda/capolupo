@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   title: {
     template: '%s - NoneNineNane',
     default:
-      'NoneNineNane - Canzonette per bimbi che non vogliono dormire',
+      'NoneNineNane - Nove piccole canzoni per bimbi che non vogliono dormire',
   },
   description:
-    'Canzonette per bimbi che non vogliono dormire',
+    'Nove piccole canzoni per bimbi che non vogliono dormire',
 }
 
 export default function RootLayout({

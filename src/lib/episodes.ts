@@ -154,19 +154,35 @@ export async function getAllEpisodes() {
         '<p class="my-0">c’è una nonna senza un dente</p>' +
         '<p class="my-0">c’è un topino ch’è un gran fetente</p>' +
         '<p class="my-0">ed a noi non frega niente</p>' +
-        '<h2 id="sponsors">Sponsors</h2>\n' +
-        '<ul>\n' +
-        '<li><a href="#">Initech</a> — Pioneers of the TPS report, Initech is actively looking for job-seekers with people skills who can work with customers to gather specifications and deliver them to the software people.</li>\n' +
-        '<li><a href="#">Globex Corporation</a> — Just a friendly and innocent high-tech company, with a casual work environment and an office without walls. Anything you’ve heard about a “doomsday device” is pure conjecture and not based in fact.</li>\n' +
-        '</ul>\n' +
-        '<h2 id="links">Links</h2>\n' +
-        '<ul>\n' +
-        '<li><a href="#">Quis laboriosam</a> molestiae tempore necessitatibus</li>\n' +
-        '<li><a href="#">Sit autem</a> neque minima itaque sit commodi</li>\n' +
-        '<li>Eos ratione <a href="#">blanditiis</a></li>\n' +
-        '<li>Eius a <a href="#">qui quasi</a></li>\n' +
-        '<li>Laborum laudantium sunt <a href="#">mollitia aliquam</a> corporis</li>\n' +
-        '</ul>\n',
+        '<h2 id="sponsors">Accordi</h2>' +
+        '<p class="my-0 w-40 flex justify-between text-gray-500"><span>do</span><span class="ml-16">fa</span><span>do</span></p>' +
+        '<p class="my-0">Fila-filastrocca impertinente</p>' +
+        '<p class="my-0 w-40 flex justify-between text-gray-500"><span class="text-transparent">do</span><span class="ml-16">fa</span><span>do</span></p>' +
+        '<p class="my-0">la mia nonna ha perso un dente</p>' +
+        '<p class="my-0 w-48 flex justify-between text-gray-500"><span>fa</span><span>do</span><span class="ml-5">sol</span><span>do</span><span>fa</span></p>' +
+        '<p class="my-0">ed ha chiesto al topolino</p>' +
+        '<p class="my-0 w-40 flex justify-between text-gray-500"><span class="pl-8">do</span><span>fa</span><span>do</span></p>' +
+        '<p class="my-0">di portarle un bel soldino</p>' +
+        '<p class="my-0 w-48 flex justify-between text-gray-500"><span class="text-transparent">do</span><span>fa</span><span>do</span></p>' +
+        '<p class="my-0">ma il topino ’sto disgraziato</p>' +
+        '<p class="my-0 w-36 flex justify-between text-gray-500"><span class="text-transparent">do</span><span>fa</span><span>do</span></p>' +
+        '<p class="my-0">il soldino s’è intascato</p>' +
+        '<p class="my-0 w-32 flex justify-between text-gray-500"><span>fa</span><span>do</span><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">e la nonna poverina</p>' +
+        '<p class="my-0 w-32 flex justify-between text-gray-500"><span>fa</span><span>do</span><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">è rimasta come prima</p>' +
+        '<p class="my-0 w-32 flex justify-between text-gray-500"><span>fa</span><span>do</span><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">senza un dente è la nonnina</p>' +
+        '<p class="my-0 w-32 flex justify-between text-gray-500"><span>fa</span><span>do</span><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">poverina, poverina</p>' +
+        '<p class="my-0 w-32 flex justify-between text-gray-500"><span>fa</span><span>do</span><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">filastrocca impertinente</p>' +
+        '<p class="my-0 w-40 flex justify-between text-gray-500"><span>fa</span><span>do</span><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">c’è una nonna senza un dente</p>' +
+        '<p class="my-0 w-44 flex justify-between text-gray-500"><span>fa</span><span>do</span><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">c’è un topino ch’è un gran fetente</p>' +
+        '<p class="my-0 w-36 flex justify-between text-gray-500"><span>fa</span><span>do</span><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">ed a noi non frega niente</p>',
       audio: {
         src: cdn + 'audio/3-%20Filastrocca%20impertinente.m4a',
         type: 'audio/mpeg',
@@ -180,7 +196,7 @@ export async function getAllEpisodes() {
       description:
         'What looks to outsiders like a malicious plan to conquer the east coast, was actually a story of liberation and freedom if you get it straight from the source.',
       content:
-        '<h2 id="topics">Testi</h2>\n' +
+        '<h2 id="topics">Testo</h2>\n' +
         '<p class="my-0"> Oh mio Leandro</p>' +
         '<p class="my-0">se tu fossi un fiore</p>' +
         '<p class="my-0">di rosso colore</p>' +
@@ -191,7 +207,30 @@ export async function getAllEpisodes() {
         '<p class="my-0">lo so lo so lo sai l’amore ci dispera</p>' +
         '<p class="my-0">e brucia come il sole d’estate in Via Lanera</p>' +
         '<p class="my-0"> Viva Guantanamera</p>' +
-        '<h2 id="sponsors">Accordi</h2>',
+        '<h2 id="sponsors">Accordi</h2>' +
+        '<p class="my-0 w-32 flex pl-16 justify-between text-gray-500"><span>do</span><span>re-</span></p>' +
+        '<p class="my-0"> Oh mio Leandro</p>' +
+        '<p class="my-0 w-40 flex pl-5 justify-between text-gray-500"><span>sol</span><span>do</span><span>re-</span></p>' +
+        '<p class="my-0">se tu fossi un fiore</p>' +
+        '<p class="my-0 w-40 flex pl-5 justify-between text-gray-500"><span>sol</span><span>do</span><span>re-</span><span>sol</span></p>' +
+        '<p class="my-0">di rosso colore</p>' +
+        '<p class="my-0 w-24 flex pl-5 justify-between text-gray-500"><span>do</span><span>re-</span></p>' +
+        '<p class="my-0">ed io viandante</p>' +
+        '<p class="my-0 w-40 flex pl-5 justify-between text-gray-500"><span>sol</span><span>do</span><span>re-</span></p>' +
+        '<p class="my-0"> dall’animo raggiante</p>' +
+        '<p class="my-0 w-40 flex pl-5 justify-between text-gray-500"><span>sol</span><span>do</span><span>re-</span></p>' +
+        '<p class="my-0">ti coglierei all’istante</p>' +
+        '<p class="my-0 w-28 flex pl-5 justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">ti coglierei in flagrante</p>' +
+        '<p class="my-0 w-52 flex pl-5 justify-between text-gray-500"><span>fa</span><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">lo so lo so lo sai l’amore ci dispera</p>' +
+        '<p class="my-0 w-52 flex pl-5 justify-between text-gray-500"><span>fa</span><span>sol</span><span>do</span></p>' +
+        '<p class="my-0">e brucia come il sole d’estate in Via Lanera</p>' +
+        '<p class="my-0 w-28 flex pl-5 justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        '<p class="my-0"> Viva Guantanamera</p>' +
+        '<p class="my-0 w-28 flex pl-5 justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
+        '<p class="my-0"> Oh mio Leandro!!!!!</p>',
+
       audio: {
         src: cdn + 'audio/2-%20Oh%20(mio)%20Leandro.m4a',
         type: 'audio/mpeg',
@@ -205,7 +244,7 @@ export async function getAllEpisodes() {
       description:
         "You know him as an evil supervillain, but his closest friends call him Jeff, and he's just doing his best to find his way in a world that doesn't know what to do with a talking skeleton.",
       content:
-        '<h2 id="topics">Topics</h2>\n' +
+        '<h2 id="topics">Testo</h2>\n' +
         '<p class="my-0">C’è un leone</p>' +
         '<p class="my-0">che mangia frutta a colazione</p>' +
         '<p class="my-0">si chiama Gastone</p>' +
@@ -214,7 +253,19 @@ export async function getAllEpisodes() {
         '<p class="my-0">lui mangia solo lampascione</p>' +
         '<p class="my-0">si chiama Gastone</p>' +
         '<p class="my-0">leone mattacchione</p>' +
-        '<h2 id="sponsors">Accordi</h2>',
+        '<h2 id="sponsors">Accordi</h2>' +
+        '<p class="mb-0 w-32 flex  justify-between text-gray-500"><span>do</span></p>' +
+        '<p class="my-0">C’è un leone</p>' +
+        '<p class="my-0 pl-8 w-32 flex  justify-between text-gray-500"><span>fa</span><span>do</span></p>' +
+        '<p class="my-0">che mangia frutta a colazione</p>' +
+        '<p class="my-0">e alla sera</p>' +
+        '<p class="my-0 pl-8 w-32 flex  justify-between text-gray-500"><span>fa</span><span>do</span></p>' +
+        '<p class="my-0">lui mangia solo lampascione</p>' +
+        '<p class="my-0 pl-20 w-32 flex  justify-between text-gray-500"><span>sol</span></p>' +
+        '<p class="my-0">si chiama Gastone</p>' +
+        '<p class="my-0 pl-20 w-60 flex  justify-between text-gray-500"><span>do</span><span class="flex gap-2"><span>sol</span><span>fa</span><span>do</span></span></p>' +
+        '<p class="my-0">leone mattacchione</p>' +
+        '',
       audio: {
         src: cdn + 'audio/1-%20Gastone,%20leone%20mattacchione.m4a',
         type: 'audio/mpeg',
