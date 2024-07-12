@@ -10,6 +10,18 @@ export const metadata: Metadata = {
   },
   description:
     'Nove piccole canzoni per bimbi che non vogliono dormire',
+    openGraph: {
+      type: 'website',
+      title: 'NoneNineNane',
+      description: 'Nove piccole canzoni per bimbi che non vogliono dormire',
+
+      images: [
+        {
+          url: 'https://ik.imagekit.io/2gweb/noneninenane/cane.webp?updatedAt=1716839505656',
+          alt: 'NoneNineNane',
+        },
+      ],
+    }
 }
 
 export default function RootLayout({
