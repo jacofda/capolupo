@@ -1,3 +1,5 @@
+import { title } from 'process'
+
 export interface Episode {
   id: number
   title: string
@@ -15,12 +17,56 @@ export async function getAllEpisodes() {
   const cdn = 'https://ik.imagekit.io/2gweb/noneninenane/'
   return [
     {
+      id: 6,
+      title: "6: L'elefante (non dorme mai)",
+      slug: 'l-elefante-non-dorme-mai',
+      published: '2022-02-24T00:00:00.000Z',
+      description: "L'elefante col turbante fa il bagnetto col suo papà.",
+      content:
+        '<h2 id="topics">Testo</h2>' +
+        `<p class="my-0">L'elefante non dorme mai</p>
+      <p class="my-0">mangia sempre e non cerca guai</p>
+      <p class="my-0">se lo cerchi lo troverai</p>
+      <p class="my-0">tra i cespugli, dentro ai granai</p>
+      <p class="my-0">a Grumentum qualche anno fa</p>
+      <p class="my-0">c'erano Surus e il suo papà</p>
+      <p class="my-0">chi li ha visti ricorderà</p>
+      <p class="my-0">che mangiavano a volontà</p>
+      <p class="my-0">l'elefante che gigante, un birbante roboante</p>
+      <p class="my-0">l'elefante col turbante, un gigante disarmante</p>
+        <h2 id="topics">Accordi</h2>
+        <p class="mb-0 w-36 flex justify-between text-gray-500"><span>do</span><span>sol</span></p>
+        <p class="my-0">L'elefante non dorme mai</p>
+        <p class="my-0 w-44 flex justify-between text-gray-500"><span class="text-transparent">do</span><span>do</span></p>
+        <p class="my-0">mangia sempre e non cerca guai</p>
+        <p class="my-0 w-32 flex justify-between text-gray-500"><span class="text-transparent">do</span><span>fa</span></p>
+        <p class="my-0">se lo cerchi lo troverai</p>
+        <p class="my-0 w-36 ml-4 flex justify-between text-gray-500"><span>do</span><span>sol</span><span>do</span></p>
+        <p class="my-0">tra i cespugli, dentro ai granai</p>
+        <p class="my-0 w-36 flex justify-between text-gray-500"><span class="text-transparent">do</span><span>sol</span></p>
+        <p class="my-0">a Grumentum qualche anno fa</p>
+        <p class="my-0 w-32 flex justify-between text-gray-500"><span class="text-transparent">do</span><span>do</span></p>
+        <p class="my-0">c'erano Surus e il suo papà</p>
+        <p class="my-0 w-32 flex justify-between text-gray-500"><span class="text-transparent">do</span><span>fa</span></p>
+        <p class="my-0">chi li ha visti ricorderà</p>
+        <p class="my-0 w-36 flex justify-between text-gray-500"><span>do</span><span>sol</span><span>do</span></p>
+        <p class="my-0">che mangiavano a volontà</p>
+        <p class="my-0 w-72 flex justify-between text-gray-500"><span>sol</span><span>do</span><span>sol</span><span>do</span></p>
+        <p class="my-0">l'elefante che gigante, un birbante roboante</p>
+                <p class="my-0 w-72 flex justify-between text-gray-500"><span>fa</span><span>sol</span><span>do</span><span>fa</span><span>sol</span><span>do</span></p>
+
+        <p class="my-0">l'elefante col turbante, un gigante disarmante</p>`,
+      audio: {
+        src: cdn + 'audio/6-%20L_elefante%20non%20dorme%20mai.m4a',
+        type: 'audio/mpeg',
+      },
+    },
+    {
       id: 5,
       title: '5: Un cane bianco della Lucania',
       slug: 'un-cane-bianco-della-lucania',
       published: '2022-02-24T00:00:00.000Z',
-      description:
-        'He’s going to need you to go ahead and come in on Saturday, but there’s a lot more to the story than you think.',
+      description: 'Come Crocco sulla montagna quando dormi pensi alla mamma',
       content:
         '<h2 id="topics">Testo</h2>\n' +
         '<p>Ieri ho visto un cane bianco<br>\n' +
@@ -86,7 +132,7 @@ export async function getAllEpisodes() {
       slug: 'canzone-del-maggio',
       published: '2022-02-17T00:00:00.000Z',
       description:
-        'When golf-obsessed terrorists kidnapped his family and held them hostage in exchange for a Golden Jacket, Shooter had no choice but to win the tour at any cost.',
+        'Tra i boschi di Accettura, che bella è la natura non devi aver paura',
       content:
         '<h2 id="topics">Testo</h2>\n' +
         '<p class="my-0">Bisogna aver coraggio</p>' +
@@ -194,7 +240,7 @@ export async function getAllEpisodes() {
       slug: 'oh-mio-leandro',
       published: '2022-02-03T00:00:00.000Z',
       description:
-        'What looks to outsiders like a malicious plan to conquer the east coast, was actually a story of liberation and freedom if you get it straight from the source.',
+        'Lo so lo so lo sai l’amore ci dispera e brucia come il sole d’estate in Via Lanera',
       content:
         '<h2 id="topics">Testo</h2>\n' +
         '<p class="my-0"> Oh mio Leandro</p>' +
