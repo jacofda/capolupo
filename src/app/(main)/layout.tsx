@@ -119,6 +119,7 @@ export default function MainLayout({
               <Link
                 href="https://ik.imagekit.io/2gweb/noneninenane/Capolupo.pdf"
                 className="group flex items-center"
+                target='_blank'
                 aria-label="Scarica l'intero album"
               >
                 <PDFIcon className="h-8 w-8 fill-slate-400 group-hover:fill-slate-600" />
