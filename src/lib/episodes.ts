@@ -323,7 +323,7 @@ export async function getAllEpisodes() {
       slug: 'il-canto-del-monachicchio',
       published: '2022-02-24T00:00:00.000Z',
       description:
-        'Mie care mucche al pascolo vorrei essere Patroclo parlare come un oracolo',
+        'Mie care mucche al pascolo, vorrei essere Patroclo e parlare come un oracolo.',
       content:
         '<h2 id="topics">Testo</h2>' +
         `<p class="my-0">Due mille mucche al pascolo</p>
@@ -360,7 +360,8 @@ export async function getAllEpisodes() {
       title: "8: L'editto di Rodari",
       slug: 'l-editto-di-rodari',
       published: '2022-02-24T00:00:00.000Z',
-      description: 'Evviva evviva il Sig. Scotellaro',
+      description:
+        'Evviva evviva il Sig. Scotellaro! Dalla sua sofferta esperienza di militante socialista, impegnato a riscattare, anche con l’azione politica, la secolare degradazione del sottoproletariato rurale della Lucania.',
       content:
         '<h2 id="topics">Testo</h2>' +
         `<p class="my-0">Io chiedo venia alla formica</p>
@@ -386,7 +387,7 @@ export async function getAllEpisodes() {
       slug: 'l-editto-di-rodari',
       published: '2022-02-24T00:00:00.000Z',
       description:
-        'La capra crepa e senza latte, non fa la feta povero Ulisse, Eumeo lo disse la vita è tetra, senza la feta',
+        'La capra crepa e senza latte, non fa la feta povero Ulisse, Eumeo lo disse la vita è tetra, senza la feta ...',
       content:
         '<h2 id="topics">Testo</h2>' +
         `<p class="my-0">L’anacoreta, non è un atleta</p>
