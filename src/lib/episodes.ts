@@ -22,7 +22,7 @@ export async function getAllEpisodes() {
       slug: 'gastone',
       published: '2022-01-27T00:00:00.000Z',
       description:
-        "You know him as an evil supervillain, but his closest friends call him Jeff, and he's just doing his best to find his way in a world that doesn't know what to do with a talking skeleton.",
+        'Il leone mangia frutta a colazione e alla sera lui mangia solo lampascione',
       content:
         '<h2 id="topics">Testo</h2>\n' +
         '<p class="my-0">C’è un leone</p>' +
@@ -314,6 +314,108 @@ export async function getAllEpisodes() {
         <p class="my-0">l'elefante col turbante, un gigante disarmante</p>`,
       audio: {
         src: cdn + 'audio/6-%20L_elefante%20non%20dorme%20mai.m4a',
+        type: 'audio/mpeg',
+      },
+    },
+    {
+      id: 7,
+      title: '7: Il canto del monachicchio',
+      slug: 'il-canto-del-monachicchio',
+      published: '2022-02-24T00:00:00.000Z',
+      description:
+        'Mie care mucche al pascolo vorrei essere Patroclo parlare come un oracolo',
+      content:
+        '<h2 id="topics">Testo</h2>' +
+        `<p class="my-0">Due mille mucche al pascolo</p>
+        <p class="my-0">chissà se mi capiscono</p>
+        <p class="my-0">se salgo sopra un mandorlo</p>
+        <p class="my-0">e a tutte proferisco</p>
+        <p class="my-0">mie care mucche al pascolo</p>
+        <p class="my-0">vorrei essere Patroclo</p>
+        <p class="my-0">parlare come un oracolo</p>
+        <p class="my-0">ed essere meno discolo</p>
+        <p class="my-0">se avessi un obelisco-o</p>
+        <p class="my-0">se fossi un odalisco-o</p>
+        <p class="my-0">mie care mucche al pascolo</p>
+        <p class="my-0">sarei un po’ meno bischero</p>
+        <p class="my-0">due mille mucche al pascolo</p>
+        <p class="my-0">visioni che stordiscono</p>
+        <p class="my-0">disteso sul mio mandorlo</p>
+        <p class="my-0">mi guardi e riverisco</p>
+        <p class="my-0">mi guardi e ti colpsco</p>
+        <p class="my-0">attento al monachicchio</p>
+        <p class="my-0">attenta al monachicchio</p>
+        <h2 id="topics">Accordi</h2>
+        <p class="my-0">Do sol do</p>
+        <p class="my-0">Fa do</p>
+        <p class="my-0">Fa do</p>
+        <p class="my-0">Do sol do</p>`,
+      audio: {
+        src: cdn + 'audio/7-%20Il%20canto%20del%20monachicchio.m4a',
+        type: 'audio/mpeg',
+      },
+    },
+    {
+      id: 8,
+      title: "8: L'editto di Rodari",
+      slug: 'l-editto-di-rodari',
+      published: '2022-02-24T00:00:00.000Z',
+      description: 'Evviva evviva il Sig. Scotellaro',
+      content:
+        '<h2 id="topics">Testo</h2>' +
+        `<p class="my-0">Io chiedo venia alla formica</p>
+        <p class="my-0">se faccio il tifo per la sua amica</p>
+        <p class="my-0">sì faccio il tifo per la cicala</p>
+        <p class="my-0">che il più bel canto a noi regala</p>
+        <p class="my-0">se il più bel canto a noi non vende</p>
+        <p class="my-0">che sia beata nel suo far niente</p>
+        <p class="my-0">che sia beato chi non si vende</p>
+        <p class="my-0">chi ha il cuore puro e non si arrende</p>
+        <p class="my-0">che sia beato chi non è avaro</p>
+        <p class="my-0">evviva evviva il Sig. Scotellaro</p>
+        <h2 id="topics">Accordi</h2>
+        <p class="my-0">Do fa do sol</p>`,
+      audio: {
+        src: cdn + 'audio/8-%20L_Editto%20di%20Rodari.m4a',
+        type: 'audio/mpeg',
+      },
+    },
+    {
+      id: 9,
+      title: "9: L'editto di Rodari",
+      slug: 'l-editto-di-rodari',
+      published: '2022-02-24T00:00:00.000Z',
+      description:
+        'La capra crepa e senza latte, non fa la feta povero Ulisse, Eumeo lo disse la vita è tetra, senza la feta',
+      content:
+        '<h2 id="topics">Testo</h2>' +
+        `<p class="my-0">L’anacoreta, non è un atleta</p>
+          <p class="my-0">e l’esegeta, non è un profeta</p>
+          <p class="my-0">mi chiamo Orazio, sommo poeta</p>
+          <p class="my-0">nacqui a Venosa, vestivo seta</p>
+          <p class="my-0">vestito a seta, sommo è il poeta</p>
+          <p class="my-0">senza una meta, la vita è lieta</p>
+          <p class="my-0">sotto la panca, la capra crepa</p>
+          <p class="my-0">e senza latte, non fa la feta</p>
+          <p class="my-0">povero Ulisse, Eumeo lo disse</p>
+          <p class="my-0">la vita è tetra, senza la feta</p>
+          <p class="my-0">senza la feta, senza una meta</p>
+          <p class="my-0">sommo è il poeta, la vita allieta</p>
+        <h2 id="topics">Accordi</h2>
+        <p class="my-0">L’anacoreta, non è un atleta</p>
+          <p class="my-0">e l’esegeta, non è un profeta</p>
+          <p class="my-0">mi chiamo Orazio, sommo poeta</p>
+          <p class="my-0">nacqui a Venosa, vestivo seta</p>
+          <p class="my-0">vestito a seta, sommo è il poeta</p>
+          <p class="my-0">senza una meta, la vita è lieta</p>
+          <p class="my-0">sotto la panca, la capra crepa</p>
+          <p class="my-0">e senza latte, non fa la feta</p>
+          <p class="my-0">povero Ulisse, Eumeo lo disse</p>
+          <p class="my-0">la vita è tetra, senza la feta</p>
+          <p class="my-0">senza la feta, senza una meta</p>
+          <p class="my-0">sommo è il poeta, la vita allieta</p>`,
+      audio: {
+        src: cdn + 'audio/9%20-%20Orazio.m4a',
         type: 'audio/mpeg',
       },
     },
