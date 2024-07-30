@@ -70,17 +70,19 @@ export default function MainLayout({
           <Link
             href="/"
             title="home"
-            className="relative mx-auto block w-48 overflow-hidden rounded-lg bg-slate-200 shadow-xl shadow-slate-200 sm:w-64 sm:rounded-xl lg:w-auto lg:rounded-2xl"
+            className="group relative mx-auto block w-48 overflow-hidden rounded-lg bg-transparent shadow-xl shadow-slate-200 sm:w-64 sm:rounded-xl lg:w-auto lg:rounded-2xl"
             aria-label="Homepage"
           >
-            <Image
-              className="w-full"
-              src={caneImage}
-              alt=""
-              sizes="(min-width: 1024px) 20rem, (min-width: 640px) 16rem, 12rem"
-              priority
-            />
-            <div className="absolute inset-0 rounded-lg ring-1 ring-inset ring-black/10 sm:rounded-xl lg:rounded-2xl transition duration-500 hover:ring-black/40" />
+            <div className="m-1.5 bg-slate-50 rounded-lg">
+              <Image
+                className="w-full"
+                src={caneImage}
+                alt=""
+                sizes="(min-width: 1024px) 20rem, (min-width: 640px) 16rem, 12rem"
+                priority
+              />
+            </div>
+            <div className="p-2 -z-20 absolute inset-0 rounded-lg sm:rounded-xl lg:rounded-2xl transition duration-500 rainbow -m-2 group-hover:scale-150 group-hover:rotate-45" />
           </Link>
           <div className="mt-10 text-center lg:mt-12 lg:text-left">
             <p className="text-xl font-bold text-slate-900">
