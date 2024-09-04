@@ -23,7 +23,7 @@ export function AboutSection(props: React.ComponentPropsWithoutRef<'section'>) {
           !isExpanded && 'lg:line-clamp-4',
         )}
       >
-        Fabio Andreoni nel vivere in Lucania ha preso l&apos;ispirazione per riassumere l&apos;essenza di quelle terre in 9 piccole canzoni per bambini e per sognatori. Ogni canzoni contiene dei piccoli riferimenti alla storia e alle persone della Basilicata.
+        Fabio Andreoni nel vivere in Lucania ha preso l&apos;ispirazione per riassumere l&apos;essenza di quelle terre in 9 piccole canzoni per bambini e per sognatori. Ogni canzone contiene dei piccoli riferimenti alla storia e alle persone della Basilicata.
       </p>
       {!isExpanded && (
         <button
