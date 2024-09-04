@@ -23,11 +23,7 @@ export function AboutSection(props: React.ComponentPropsWithoutRef<'section'>) {
           !isExpanded && 'lg:line-clamp-4',
         )}
       >
-        In this show, Eric and Wes dig deep to get to the facts with guests who
-        have been labeled villains by a society quick to judge, without actually
-        getting the full story. Tune in every Thursday to get to the truth with
-        another misunderstood outcast as they share the missing context in their
-        tragic tale.
+        Fabio Andreoni nel vivere in Lucania ha preso l'ispirazione per riassumere l'essenza di quelle terre in 9 piccole canzoni per bambini e per sognatori. Ogni canzoni contiene dei piccoli riferimenti alla storia e alle persone della Basilicata.
       </p>
       {!isExpanded && (
         <button

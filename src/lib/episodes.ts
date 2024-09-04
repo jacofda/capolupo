@@ -383,8 +383,8 @@ export async function getAllEpisodes() {
     },
     {
       id: 9,
-      title: "9: L'editto di Rodari",
-      slug: 'l-editto-di-rodari',
+      title: '9: Sommo poeta',
+      slug: 'somm-poeta',
       published: '2022-02-24T00:00:00.000Z',
       description:
         'La capra crepa e senza latte, non fa la feta povero Ulisse, Eumeo lo disse la vita è tetra, senza la feta ...',
