@@ -1,10 +1,12 @@
-import { title } from 'process'
-
 export interface Episode {
   id: number
   title: string
   slug: string
   published: Date | string
+  img: {
+    url: string
+    alt: string
+  }
   description: string
   content: string
   audio: {
@@ -21,8 +23,12 @@ export async function getAllEpisodes() {
       title: '1: Gastone, leone mattacchione',
       slug: 'gastone',
       published: '2022-01-27T00:00:00.000Z',
+      img: {
+        url: cdn + '01-gastone.webp?updatedAt=1729867911550',
+        alt: 'Gemeine Schopfhyazinthe, Muscari comosum.',
+      },
       description:
-        'Il leone mangia frutta a colazione e alla sera lui mangia solo lampascione',
+        'Leone mattacchione, mangia solo lampascione ed é proprio uno scoreggione. Il lampascione é un piccolo bulbo assai gustoso, molto diffuso nelle aree mediterannee',
       content:
         '<h2 id="topics">Testo</h2>\n' +
         '<p class="my-0">C’è un leone</p>' +
@@ -56,6 +62,10 @@ export async function getAllEpisodes() {
       title: '2: Oh (mio) Leandro',
       slug: 'oh-mio-leandro',
       published: '2022-02-03T00:00:00.000Z',
+      img: {
+        url: cdn + '/02-oh-mio-leandro.webp?updatedAt=1729867911550',
+        alt: 'Prunus mahaleb L. - Ciliegio Canino',
+      },
       description:
         'Lo so lo so lo sai l’amore ci dispera e brucia come il sole d’estate in Via Lanera',
       content:
@@ -104,6 +114,10 @@ export async function getAllEpisodes() {
       title: '3: C’era una nonna a Salvia di L',
       slug: 'filastrocca-impertinente',
       published: '2022-02-10T00:00:00.000Z',
+      img: {
+        url: cdn + '03-filastrocca-impertinente.webp?updatedAt=1729867911550',
+        alt: 'Filastrocca impertinente',
+      },
       description:
         'Passannante l’aveva detto - Senza un dente non sei perfetto -  Ma senza pane si fa la fame -  Girotondo casca il reame',
       content:
@@ -213,7 +227,12 @@ export async function getAllEpisodes() {
       title: '5: Un cane bianco della Lucania',
       slug: 'un-cane-bianco-della-lucania',
       published: '2022-02-24T00:00:00.000Z',
-      description: 'Come Crocco sulla montagna quando dormi pensi alla mamma',
+      img: {
+        url: cdn + '05-cane-bianco.webp?updatedAt=1730028595254',
+        alt: '',
+      },
+      description:
+        "Cane bianco della Lucania, parla di libertà riferendosi a tutti quei cani randagi che ancora vagano liberi per i campi della Basilicata. Che cos'è un brigante se non un randagio, inteso come ribelle, e chi é più brigante di Carmine?",
       content:
         '<h2 id="topics">Testo</h2>\n' +
         '<p>Ieri ho visto un cane bianco<br>\n' +
@@ -278,7 +297,12 @@ export async function getAllEpisodes() {
       title: "6: L'elefante (non dorme mai)",
       slug: 'l-elefante-non-dorme-mai',
       published: '2022-02-24T00:00:00.000Z',
-      description: "L'elefante col turbante fa il bagnetto col suo papà.",
+      img: {
+        url: 'https://ik.imagekit.io/2gweb/noneninenane/06-elefante.webp?updatedAt=1729867911550',
+        alt: 'Il grande elefante di Annnibale',
+      },
+      description:
+        'Che Annibale arrivò in Italia lo dice la storia, e con lui Surus il suo Elefante. Prima di arrivare a Canne sono sicuro che il nostro condottiero si fermò anche a Grumentum.',
       content:
         '<h2 id="topics">Testo</h2>' +
         `<p class="my-0">L'elefante non dorme mai</p>
@@ -322,6 +346,7 @@ export async function getAllEpisodes() {
       title: '7: Il canto del monachicchio',
       slug: 'il-canto-del-monachicchio',
       published: '2022-02-24T00:00:00.000Z',
+      img: '',
       description:
         'Mie care mucche al pascolo, vorrei essere Patroclo e parlare come un oracolo.',
       content:
@@ -360,6 +385,7 @@ export async function getAllEpisodes() {
       title: "8: L'editto di Rodari",
       slug: 'l-editto-di-rodari',
       published: '2022-02-24T00:00:00.000Z',
+      img: '',
       description:
         'Evviva evviva il Sig. Scotellaro! Dalla sua sofferta esperienza di militante socialista, impegnato a riscattare, anche con l’azione politica, la secolare degradazione del sottoproletariato rurale della Lucania.',
       content:
@@ -386,8 +412,12 @@ export async function getAllEpisodes() {
       title: '9: Sommo poeta',
       slug: 'somm-poeta',
       published: '2022-02-24T00:00:00.000Z',
+      img: {
+        url: cdn + '09-sommo-poeta.webp?updatedAt=1729867911550',
+        alt: 'Il canto del monachicchio',
+      },
       description:
-        'La capra crepa e senza latte, non fa la feta povero Ulisse, Eumeo lo disse la vita è tetra, senza la feta ...',
+        "Carpe Diem, cogli l'attimo, non esitare, non temere, lasciati andare...come Ulisse, come Eumeo, come la capra sotto la panca, come la Magna Grecia che ci ha reso più liberi e come Orazio che ci ha reso piu sognatori.",
       content:
         '<h2 id="topics">Testo</h2>' +
         `<p class="my-0">L’anacoreta, non è un atleta</p>

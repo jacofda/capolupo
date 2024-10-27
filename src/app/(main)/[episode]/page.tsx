@@ -1,10 +1,13 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import { cache } from 'react'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import { EpisodePlayButton } from '@/components/EpisodePlayButton'
-import { FormattedDate } from '@/components/FormattedDate'
+// import { FormattedDate } from '@/components/FormattedDate'
 import { PauseIcon } from '@/components/PauseIcon'
 import { PlayIcon } from '@/components/PlayIcon'
 import { getAllEpisodes } from '@/lib/episodes'
@@ -39,7 +42,7 @@ export default async function Episode({
   params: { episode: string }
 }) {
   let episode = await getEpisode(params.episode)
-  let date = new Date(episode.published)
+  // let date = new Date(episode.published)
 
   return (
     <article className="py-16 lg:py-36">
@@ -71,10 +74,20 @@ export default async function Episode({
           </p>
         </header>
         <hr className="my-12 border-gray-200" />
-        <div
-          className="prose prose-slate mt-14 [&>h2:nth-of-type(3n)]:before:bg-violet-200 [&>h2:nth-of-type(3n+2)]:before:bg-indigo-200 [&>h2]:mt-12 [&>h2]:flex [&>h2]:items-center [&>h2]:font-mono [&>h2]:text-sm [&>h2]:font-medium [&>h2]:leading-7 [&>h2]:text-slate-900 [&>h2]:before:mr-3 [&>h2]:before:h-3 [&>h2]:before:w-1.5 [&>h2]:before:rounded-r-full [&>h2]:before:bg-cyan-200 [&>ul]:mt-6 [&>ul]:list-['\2013\20'] [&>ul]:pl-5"
-          dangerouslySetInnerHTML={{ __html: episode.content }}
-        />
+        <div className="flex flex-col gap-y-4 gap-x-20 xl:flex-row justify-between">
+            <div
+              className="order-2 xl:order-1 prose prose-slate mt-14 [&>h2:nth-of-type(3n)]:before:bg-violet-200 [&>h2:nth-of-type(3n+2)]:before:bg-indigo-200 [&>h2]:mt-12 [&>h2]:flex [&>h2]:items-center [&>h2]:font-mono [&>h2]:text-sm [&>h2]:font-medium [&>h2]:leading-7 [&>h2]:text-slate-900 [&>h2]:before:mr-3 [&>h2]:before:h-3 [&>h2]:before:w-1.5 [&>h2]:before:rounded-r-full [&>h2]:before:bg-cyan-200 [&>ul]:mt-6 [&>ul]:list-['\2013\20'] [&>ul]:pl-5"
+              dangerouslySetInnerHTML={{ __html: episode.content }}>
+            </div>
+            <div className='mx-auto order-1 text-center text-gray-500 xl:order-2 xl:mt-28 xl:-mr-16 2xl:-mr-32'>
+                {typeof episode.img === 'object' && episode.img !== null && 'url' in episode.img && 'alt' in episode.img && (
+                  <>
+                    <img src={episode.img.url} className="object-cover max-h-128" alt={episode.img.alt} />
+                    <small>{episode.img.alt}</small>
+                  </>
+                )}
+            </div>
+          </div>
       </Container>
     </article>
   )
