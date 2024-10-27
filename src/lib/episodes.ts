@@ -3,7 +3,7 @@ export interface Episode {
   title: string
   slug: string
   published: Date | string
-  img: {
+  img?: {
     url: string
     alt: string
   }
@@ -346,7 +346,7 @@ export async function getAllEpisodes() {
       title: '7: Il canto del monachicchio',
       slug: 'il-canto-del-monachicchio',
       published: '2022-02-24T00:00:00.000Z',
-      img: '',
+      img: { url: '', alt: '' },
       description:
         'Mie care mucche al pascolo, vorrei essere Patroclo e parlare come un oracolo.',
       content:
@@ -385,7 +385,10 @@ export async function getAllEpisodes() {
       title: "8: L'editto di Rodari",
       slug: 'l-editto-di-rodari',
       published: '2022-02-24T00:00:00.000Z',
-      img: '',
+      img: {
+        url: '',
+        alt: '',
+      },
       description:
         'Evviva evviva il Sig. Scotellaro! Dalla sua sofferta esperienza di militante socialista, impegnato a riscattare, anche con l’azione politica, la secolare degradazione del sottoproletariato rurale della Lucania.',
       content:

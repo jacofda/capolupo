@@ -16,10 +16,10 @@ const getEpisode = cache(async (slug: string) => {
   let allEpisodes = await getAllEpisodes()
   let episode = allEpisodes.find((episode) => episode.slug.toString() === slug)
 
-
   if (!episode) {
     notFound()
   }
+
 
   return episode
 })

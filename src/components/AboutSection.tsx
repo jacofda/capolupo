@@ -23,10 +23,9 @@ export function AboutSection(props: React.ComponentPropsWithoutRef<'section'>) {
           !isExpanded && 'lg:line-clamp-4',
         )}
       >
-Sono una manciata di filastrocche messe in musica, nove piccole canzoni scritte e pensate per addormentare i bambini. Nascono in Basilicata scrutando l'orizzonte, annusando l'aria ed assimilando i luoghi. None é una negazione, quasi a voler dire che non sono vere ninne nanne, non a caso il sottotitolo recita proprio per bambini che non vogliono dormire.
+Sono una manciata di filastrocche messe in musica, nove piccole canzoni scritte e pensate per addormentare i bambini. Nascono in Basilicata scrutando l&apos;orizzonte, annusando l&apos;aria ed assimilando i luoghi. None é una negazione, quasi a voler dire che non sono vere ninne nanne, non a caso il sottotitolo recita proprio per bambini che non vogliono dormire.
 La musica é un gioco, anche la vita può essere uno splendido gioco ed i bambini amano giocare
 
-        {/* Fabio Andreoni nel vivere in Lucania ha preso l&apos;ispirazione per riassumere l&apos;essenza di quelle terre in 9 piccole canzoni per bambini e per sognatori. Ogni canzone contiene dei piccoli riferimenti alla storia e alle persone della Basilicata. */}
       </p>
       {!isExpanded && (
         <button
