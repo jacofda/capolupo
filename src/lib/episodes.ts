@@ -67,7 +67,7 @@ export async function getAllEpisodes() {
         alt: 'Prunus mahaleb L. - Ciliegio Canino',
       },
       description:
-        'Lo so lo so lo sai l’amore ci dispera e brucia come il sole d’estate in Via Lanera',
+        'Via Lanera a Matera parte dal Castello ed arriva in pieno centro, ed é tutta sotto il sole. Un tempo era una zona di campi, rigogliosa di alberi di prugna, prugne piccole e nere...prugne lanera',
       content:
         '<h2 id="topics">Testo</h2>\n' +
         '<p class="my-0"> Oh mio Leandro</p>' +
@@ -116,10 +116,10 @@ export async function getAllEpisodes() {
       published: '2022-02-10T00:00:00.000Z',
       img: {
         url: cdn + '03-filastrocca-impertinente.webp?updatedAt=1729867911550',
-        alt: 'Filastrocca impertinente',
+        alt: '',
       },
       description:
-        'Passannante l’aveva detto - Senza un dente non sei perfetto -  Ma senza pane si fa la fame -  Girotondo casca il reame',
+        'Salvia di Lucania, era il paese di Passannante. In quanto anarchico e profondamente solidario, il povero Antonio fece una brutta fine, decisamente ingiusta. Lascio a voi trarre le conclusioni ma ricordatevi che senza pane si fa la fame.',
       content:
         '<h2 id="topics">Testo</h2>\n' +
         '<p class="my-0">Fila-filastrocca impertinente</p>' +
@@ -175,8 +175,12 @@ export async function getAllEpisodes() {
       title: '4: Canzone del Maggio (di Accettura)',
       slug: 'canzone-del-maggio',
       published: '2022-02-17T00:00:00.000Z',
+      img: {
+        url: cdn + '04-canzone-del-maggio.webp?updatedAt=1729867911550',
+        alt: '',
+      },
       description:
-        'Tra i boschi di Accettura, che bella è la natura non devi aver paura',
+        'Il maggio di accettura è un rito pagano risalente a tempi molto antichi, durante il quale due alberi (una cima e un fusto) vengono uniti a rappresentare simbolicamente la forza e la ciclicità della vita e della natura il maggio di accettura è ancora oggi una festa indimenticabile',
       content:
         '<h2 id="topics">Testo</h2>\n' +
         '<p class="my-0">Bisogna aver coraggio</p>' +
@@ -346,9 +350,12 @@ export async function getAllEpisodes() {
       title: '7: Il canto del monachicchio',
       slug: 'il-canto-del-monachicchio',
       published: '2022-02-24T00:00:00.000Z',
-      img: { url: '', alt: '' },
+      img: {
+        url: cdn + '07-il-canto-del-monachino.webp',
+        alt: '',
+      },
       description:
-        'Mie care mucche al pascolo, vorrei essere Patroclo e parlare come un oracolo.',
+        'Il monachicchio è un folletto dispettoso che compare soprattutto ai bambini la prima volta che ho sentito parlare del monachicchio è stato leggendo “cristo si è fermato a eboli” di carlo levi, solo dopo ho scoperto che il monachicchio appartiene alla tradizione folclorica sia lucana che pugliese',
       content:
         '<h2 id="topics">Testo</h2>' +
         `<p class="my-0">Due mille mucche al pascolo</p>
@@ -386,11 +393,11 @@ export async function getAllEpisodes() {
       slug: 'l-editto-di-rodari',
       published: '2022-02-24T00:00:00.000Z',
       img: {
-        url: '',
+        url: cdn + '08-editto-di-rodari.webp',
         alt: '',
       },
       description:
-        'Evviva evviva il Sig. Scotellaro! Dalla sua sofferta esperienza di militante socialista, impegnato a riscattare, anche con l’azione politica, la secolare degradazione del sottoproletariato rurale della Lucania.',
+        "L'editto di Rodari, prende spunto da un testo di Rodari e fa il verso a l'editto di Rotari, famoso Re Longobardo che arrivò sino in Basilicata e naturalmente anche a Tricarico terra di Scotellaro",
       content:
         '<h2 id="topics">Testo</h2>' +
         `<p class="my-0">Io chiedo venia alla formica</p>
@@ -416,8 +423,8 @@ export async function getAllEpisodes() {
       slug: 'somm-poeta',
       published: '2022-02-24T00:00:00.000Z',
       img: {
-        url: cdn + '09-sommo-poeta.webp?updatedAt=1729867911550',
-        alt: 'Il canto del monachicchio',
+        url: cdn + '09-sommo-poeta.webp',
+        alt: '',
       },
       description:
         "Carpe Diem, cogli l'attimo, non esitare, non temere, lasciati andare...come Ulisse, come Eumeo, come la capra sotto la panca, come la Magna Grecia che ci ha reso più liberi e come Orazio che ci ha reso piu sognatori.",
