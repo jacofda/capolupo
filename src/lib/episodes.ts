@@ -53,7 +53,9 @@ export async function getAllEpisodes() {
         '<p class="my-0">leone mattacchione</p>' +
         '',
       audio: {
-        src: cdn + 'audio/1-%20Gastone,%20leone%20mattacchione.m4a',
+        src:
+          cdn +
+          'audio/1-%20Gastone,%20leone%20mattacchione.m4a?updatedAt=1730454364899',
         type: 'audio/mpeg',
       },
     },
@@ -105,7 +107,8 @@ export async function getAllEpisodes() {
         '<p class="my-0"> Oh mio Leandro!!!!!</p>',
 
       audio: {
-        src: cdn + 'audio/2-%20Oh%20(mio)%20Leandro.m4a',
+        src:
+          cdn + 'audio/2-%20Oh%20(mio)%20Leandro.m4a?updatedAt=1730454364907',
         type: 'audio/mpeg',
       },
     },
@@ -166,7 +169,9 @@ export async function getAllEpisodes() {
         '<p class="my-0 w-36 flex justify-between text-gray-500"><span>fa</span><span>do</span><span>sol</span><span>do</span></p>' +
         '<p class="my-0">ed a noi non frega niente</p>',
       audio: {
-        src: cdn + 'audio/3-%20Filastrocca%20impertinente.m4a',
+        src:
+          cdn +
+          'audio/3-%20Filastrocca%20impertinente.m4a?updatedAt=1730477951212',
         type: 'audio/mpeg',
       },
     },
@@ -221,7 +226,9 @@ export async function getAllEpisodes() {
         '<p class="my-0 w-32 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
         '<p class="my-0">non devi aver paura</p>',
       audio: {
-        src: cdn + 'audio/4-%20Canzone%20del%20Maggio%20(di%20Accettura).m4a',
+        src:
+          cdn +
+          'audio/4-%20Canzone%20del%20Maggio%20(di%20Accettura).m4a?updatedAt=1730478110420',
         type: 'audio/mpeg',
       },
     },
@@ -292,7 +299,9 @@ export async function getAllEpisodes() {
         '<p class="my-0 w-40 flex  justify-between text-gray-500"><span>sol</span><span>do</span></p>' +
         'la giustizia non fa la nanna<br>\n',
       audio: {
-        src: cdn + 'audio/5-%20Un%20cane%20bianco%20della%20Lucania.m4a',
+        src:
+          cdn +
+          'audio/5-%20Un%20cane%20bianco%20della%20Lucania.m4a?updatedAt=1730478030798',
         type: 'audio/mpeg',
       },
     },
@@ -341,7 +350,9 @@ export async function getAllEpisodes() {
         <p class="my-0 w-72 flex justify-between text-gray-500"><span>fa</span><span>sol</span><span>do</span><span>fa</span><span>sol</span><span>do</span></p>
         <p class="my-0">l'elefante col turbante, un gigante disarmante</p>`,
       audio: {
-        src: cdn + 'audio/6-%20L_elefante%20non%20dorme%20mai.m4a',
+        src:
+          cdn +
+          'audio/6-%20L_elefante%20non%20dorme%20mai.m4a?updatedAt=1730478166477',
         type: 'audio/mpeg',
       },
     },
@@ -383,7 +394,9 @@ export async function getAllEpisodes() {
         <p class="my-0">Fa do</p>
         <p class="my-0">Do sol do</p>`,
       audio: {
-        src: cdn + 'audio/7-%20Il%20canto%20del%20monachicchio.m4a',
+        src:
+          cdn +
+          'audio/7-%20Il%20canto%20del%20monachicchio.m4a?updatedAt=1730478375231',
         type: 'audio/mpeg',
       },
     },
@@ -413,7 +426,8 @@ export async function getAllEpisodes() {
         <h2 id="topics">Accordi</h2>
         <p class="my-0">Do fa do sol</p>`,
       audio: {
-        src: cdn + 'audio/8-%20L_Editto%20di%20Rodari.m4a',
+        src:
+          cdn + 'audio/8-%20L_Editto%20di%20Rodari.m4a?updatedAt=1730478321354',
         type: 'audio/mpeg',
       },
     },
@@ -456,7 +470,7 @@ export async function getAllEpisodes() {
           <p class="my-0">senza la feta, senza una meta</p>
           <p class="my-0">sommo è il poeta, la vita allieta</p>`,
       audio: {
-        src: cdn + 'audio/9%20-%20Orazio.m4a',
+        src: cdn + 'audio/9%20-%20Orazio.m4a?updatedAt=1730478269118',
         type: 'audio/mpeg',
       },
     },
