@@ -28,7 +28,7 @@ export async function getAllEpisodes() {
         alt: 'Gemeine Schopfhyazinthe, Muscari comosum.',
       },
       description:
-        'Leone mattacchione, mangia solo lampascione ed é proprio uno scoreggione. Il lampascione é un piccolo bulbo assai gustoso, molto diffuso nelle aree mediterannee',
+        'Leone mattacchione, mangia solo lampascione ed é proprio un dormiglione. Il lampascione é un piccolo bulbo assai gustoso, molto diffuso nelle aree mediterannee.',
       content:
         '<h2 id="topics">Testo</h2>\n' +
         '<p class="my-0">C’è un leone</p>' +

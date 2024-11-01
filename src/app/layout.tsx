@@ -6,14 +6,14 @@ export const metadata: Metadata = {
   title: {
     template: '%s - NoneNineNane',
     default:
-      'NoneNineNane - Nove piccole canzoni per bimbi che non vogliono dormire',
+      'NoneNineNane - Nove piccole canzoni per bambini che non vogliono dormire',
   },
   description:
-    'Nove piccole canzoni per bimbi che non vogliono dormire',
+    'Nove piccole canzoni per bambini che non vogliono dormire',
     openGraph: {
       type: 'website',
       title: 'NoneNineNane',
-      description: 'Nove piccole canzoni per bimbi che non vogliono dormire',
+      description: 'Sono una manciata di filastrocche messe in musica, nove piccole canzoni scritte e pensate per addormentare i bambini da Fabio Andreoni.',
 
       images: [
         {

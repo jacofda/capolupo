@@ -46,7 +46,7 @@ export default function MainLayout({
 }) {
   let hosts = ['Fabio Andreoni']
   let siteName = 'NoneNineNane';
-  let slogan = 'Nove piccole canzoni per bimbi che non vogliono dormire'
+  let slogan = 'Nove piccole canzoni per bambini che non vogliono dormire'
 
   return (
     <AudioProvider>
@@ -89,18 +89,19 @@ export default function MainLayout({
               <Link href="/" title="home">{siteName}</Link>
             </p>
             <p className="mt-3 text-lg font-medium leading-8 text-slate-700">
-              {slogan}
+              {slogan}.
             </p>
           </div>
-          <AboutSection className="mt-12 hidden lg:block" />
+          {/* hidden lg:block */}
+          <AboutSection className="mt-2 " />
           <section className="mt-10 lg:mt-12">
-            <h2 className="sr-only flex items-center font-mono text-sm font-medium leading-7 text-slate-900 lg:not-sr-only">
+            <p className="sr-only flex items-center font-mono text-sm font-medium leading-7 text-slate-900 lg:not-sr-only">
               <TinyWaveFormIcon
                 colors={['fill-indigo-300', 'fill-blue-300']}
                 className="h-2.5 w-2.5"
               />
               <span className="ml-2.5">Ascolta</span>
-            </h2>
+            </p>
             <div className="h-px bg-gradient-to-r from-slate-200/0 via-slate-200 to-slate-200/0 lg:hidden" />
             <ul
               role="list"
@@ -140,11 +141,15 @@ export default function MainLayout({
       </main>
       <footer className="border-t border-slate-200 bg-slate-50 py-10 pb-40 sm:py-16 sm:pb-32 lg:hidden">
         <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4">
-          <AboutSection />
-          <h2 className="mt-8 flex items-center font-mono text-sm font-medium leading-7 text-slate-900">
+          {/* <AboutSection /> */}
+          <p
+        className="mt-2 text-base leading-7 text-slate-700">
+          Fabio Andreoni, aka capolupo, é un medico, amante della musica, della libertà e dei sogni che ancora fanno i bambini
+          </p>
+          <h3 className="mt-8 flex items-center font-mono text-sm font-medium leading-7 text-slate-900">
             <PersonIcon className="h-3 w-auto fill-slate-300" />
             <span className="ml-2.5">Musica e testi scritti da</span>
-          </h2>
+          </h3>
           <div className="mt-2 flex gap-6 text-sm font-bold leading-7 text-slate-900">
             {hosts.map((host, hostIndex) => (
               <Fragment key={host}>
