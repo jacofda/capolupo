@@ -41,6 +41,7 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&display=swap"
         />
+        <meta name="google-site-verification" content="ryQVlDt1254DDfVH2eTzgFbOYifNj47NhuQ-LdC_MgM" />
       </head>
       <body className="flex min-h-full">
         <div className="w-full">{children}</div>
