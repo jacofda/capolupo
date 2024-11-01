@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="h-full bg-white antialiased">
+    <html lang="it" className="h-full bg-white antialiased">
       <head>
         <link
           rel="preconnect"

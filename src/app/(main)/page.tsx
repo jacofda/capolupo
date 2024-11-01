@@ -33,12 +33,12 @@ function EpisodeEntry({ episode }: { episode: Episode }) {
     >
       <Container>
         <div className="flex flex-col items-start">
-          <h2
+          <h4
             id={`episode-${episode.id}-title`}
             className="mt-2 text-lg font-bold text-slate-900"
           >
             <Link href={`${episode.slug}`}>{episode.title}</Link>
-          </h2>
+          </h4>
           
           <p className="mt-1 text-base leading-7 text-slate-700">
             {episode.description}
@@ -87,8 +87,9 @@ export default async function Home() {
     <div className="pb-12 pt-16 sm:pb-4 lg:pt-12">
       <Container>
         <h1 className="text-2xl font-bold leading-7 text-slate-900">
-          L&apos;album
+          L&apos;album <span>Noneninenane fabio andreoni</span>
         </h1>
+        <h2 className="hidden">Noneninenane fabio andreoni</h2>
       </Container>
       <div className="divide-y divide-slate-100 sm:mt-4 lg:mt-8 lg:border-t lg:border-slate-100">
         {episodes.map((episode) => (

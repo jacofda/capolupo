@@ -77,7 +77,7 @@ export default function MainLayout({
               <Image
                 className="w-full"
                 src={caneImage}
-                alt=""
+                alt="noneninenane"
                 sizes="(min-width: 1024px) 20rem, (min-width: 640px) 16rem, 12rem"
                 priority
               />
