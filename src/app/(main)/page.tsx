@@ -87,7 +87,7 @@ export default async function Home() {
     <div className="pb-12 pt-16 sm:pb-4 lg:pt-12">
       <Container>
         <h1 className="text-2xl font-bold leading-7 text-slate-900">
-          L&apos;album <span>Noneninenane fabio andreoni</span>
+          L&apos;album <span className="hidden">Noneninenane fabio andreoni</span>
         </h1>
         <h2 className="hidden">Noneninenane fabio andreoni</h2>
       </Container>
