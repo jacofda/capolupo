@@ -3,6 +3,19 @@
 import { TinyWaveFormIcon } from '@/components/TinyWaveFormIcon'
 import Link from 'next/link'
 
+
+function PlayIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" {...props}>
+      <path opacity="0.4" fill="#ec4899" d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm176-88c0-8.7 4.7-16.7 12.3-20.9c3.7-2 7.7-3.1 11.7-3.1c4.3 0 8.7 1.2 12.5 3.5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9l0-176z"/>
+      <path d="M212.5 147.5c-7.4-4.5-16.7-4.7-24.3-.5s-12.3 12.3-12.3 20.9l0 176c0 8.7 4.7 16.7 12.3 20.9s16.8 4.1 24.3-.5l144-88c7.1-4.4 11.5-12.1 11.5-20.5s-4.4-16.1-11.5-20.5l-144-88z"/>
+    </svg>
+  )
+}
+
+
+
+
 function ZipIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
     return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" {...props}>
@@ -47,6 +60,16 @@ return (
       >
         <ZipIcon className="h-8 w-8 fill-slate-400 group-hover:fill-slate-600" />
         <span className="ml-3 sm:block">Scarica album</span>
+      </Link>
+
+
+      <Link
+        href="https://ik.imagekit.io/2gweb/noneninenane/audio/album.m4a?updatedAt=1734428736330"
+        className="group flex items-center"
+        aria-label="Ascolta l'intero album"
+      >
+        <PlayIcon className="h-8 w-8 fill-slate-400 group-hover:fill-slate-600" />
+        <span className="ml-3 sm:block">Play album</span>
       </Link>
 
       <Link
