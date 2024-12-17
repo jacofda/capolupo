@@ -65,6 +65,7 @@ return (
 
       <Link
         href="https://ik.imagekit.io/2gweb/noneninenane/audio/album.m4a?updatedAt=1734428736330"
+        target='_blank'
         className="group flex items-center"
         aria-label="Ascolta l'intero album"
       >
